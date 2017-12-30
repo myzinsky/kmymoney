@@ -448,7 +448,7 @@ public:
     *
     * @return QMap with numbers of transactions per account
     */
-  virtual QMap<QString, ulong> transactionCountMap() const = 0;
+  virtual QMap<QString, unsigned long> transactionCountMap() const = 0;
 
   /**
     * This method is used to pull a list of transactions from the file

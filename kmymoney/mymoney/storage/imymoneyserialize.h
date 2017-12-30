@@ -316,29 +316,29 @@ public:
   virtual void loadOnlineJobs(const QMap<QString, onlineJob>& onlineJobs) = 0;
   virtual void loadCostCenters(const QMap<QString, MyMoneyCostCenter>& costCenters) = 0;
 
-  virtual ulong accountId() const = 0;
-  virtual ulong transactionId() const = 0;
-  virtual ulong payeeId() const = 0;
-  virtual ulong tagId() const = 0;
-  virtual ulong institutionId() const = 0;
-  virtual ulong scheduleId() const = 0;
-  virtual ulong securityId() const = 0;
-  virtual ulong reportId() const = 0;
-  virtual ulong budgetId() const = 0;
-  virtual ulong onlineJobId() const = 0;
-  virtual ulong costCenterId() const = 0;
+  virtual unsigned long accountId() const = 0;
+  virtual unsigned long transactionId() const = 0;
+  virtual unsigned long payeeId() const = 0;
+  virtual unsigned long tagId() const = 0;
+  virtual unsigned long institutionId() const = 0;
+  virtual unsigned long scheduleId() const = 0;
+  virtual unsigned long securityId() const = 0;
+  virtual unsigned long reportId() const = 0;
+  virtual unsigned long budgetId() const = 0;
+  virtual unsigned long onlineJobId() const = 0;
+  virtual unsigned long costCenterId() const = 0;
 
-  virtual void loadAccountId(ulong id) = 0;
-  virtual void loadTransactionId(ulong id) = 0;
-  virtual void loadPayeeId(ulong id) = 0;
-  virtual void loadTagId(ulong id) = 0;
-  virtual void loadInstitutionId(ulong id) = 0;
-  virtual void loadScheduleId(ulong id) = 0;
-  virtual void loadSecurityId(ulong id) = 0;
-  virtual void loadReportId(ulong id) = 0;
-  virtual void loadBudgetId(ulong id) = 0;
-  virtual void loadOnlineJobId(ulong id) = 0;
-  virtual void loadCostCenterId(ulong id) = 0;
+  virtual void loadAccountId(unsigned long id) = 0;
+  virtual void loadTransactionId(unsigned long id) = 0;
+  virtual void loadPayeeId(unsigned long id) = 0;
+  virtual void loadTagId(unsigned long id) = 0;
+  virtual void loadInstitutionId(unsigned long id) = 0;
+  virtual void loadScheduleId(unsigned long id) = 0;
+  virtual void loadSecurityId(unsigned long id) = 0;
+  virtual void loadReportId(unsigned long id) = 0;
+  virtual void loadBudgetId(unsigned long id) = 0;
+  virtual void loadOnlineJobId(unsigned long id) = 0;
+  virtual void loadCostCenterId(unsigned long id) = 0;
 
   /**
     * This method is used to retrieve the whole set of key/value pairs
